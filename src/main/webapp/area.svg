@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect x="250" y="250" width="200" height="200" style="fill: rgb(115, 111, 250);"/>
+  <path style="fill: rgb(115, 111, 250);" transform="matrix(0.9919926020957393, 0, 0, 0.97898776673022969, 2.0138925849188154, 5.27361232863569)" d="M 52.918 240.063 C -36.205 330.141 187.888 528.18 251.504 446.511 L 249.38 250.977 L 52.918 251.063 Z"/>
+  <path d="M 251.794 138.747 L 352.739 249.096 L 251.794 249.096 L 251.794 138.747 Z" style="fill: rgb(115, 111, 250);" transform="matrix(1.0155889766456954, 0, 0, 0.9876837784308063, -5.36832918905442, 3.05274792348183)" bx:shape="triangle 251.794 138.747 100.945 110.349 0 0 1@ac98c650"/>
+  <rect y="249" width="500" height="2" style=""/>
+  <rect x="249" width="2" height="500" style=""/>
+  <rect x="449" y="245" width="2" height="10" style=""/>
+  <rect x="349" y="245" width="2" height="10" style=""/>
+  <rect x="149" y="245" width="2" height="10" style=""/>
+  <rect x="49" y="245" width="2" height="10" style=""/>
+  <rect x="235.827" y="132.158" width="2" height="10" style="" transform="matrix(0, 1, -1, 0, 387.15802, -86.826996)"/>
+  <rect x="235.827" y="132.158" width="2" height="10" style="" transform="matrix(0, 1, -1, 0, 387.192413, -186.826996)"/>
+  <rect x="235.827" y="132.158" width="2" height="10" style="" transform="matrix(0, 1, -1, 0, 387.15802, 113.173004)"/>
+  <rect x="235.827" y="132.158" width="2" height="10" style="" transform="matrix(0, 1, -1, 0, 387.15802, 213.173004)"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="443.488" y="236.492">R</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="348.212" y="228.553">R/2</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="261.443" y="154.828">R/2</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="260.877" y="55.015">R</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="262.011" y="354.453">-R/2</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="261.443" y="455.211">-R</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="118.529" y="240.274">-R/2</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.9px;" x="42.536" y="232.901">-R</text>
+</svg>

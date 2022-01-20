@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                                  http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+        <navigation-case>
+            <from-outcome>toMain</from-outcome>
+            <to-view-id>/main.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>toStart</from-outcome>
+            <to-view-id>/start.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <managed-bean>
+        <managed-bean-name>managerBean</managed-bean-name>
+        <managed-bean-class>com.Karina.ManagerBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+        
+        <managed-property>
+            <property-name>valuesManaging</property-name>
+            <property-class>com.Karina.Values.ValuesManagerBean</property-class>
+            <value>#{valuesManagerBean}</value>
+        </managed-property>
+        <managed-property>
+            <property-name>areaChecking</property-name>
+            <property-class>com.Karina.AreaChecker.AreaChecker</property-class>
+            <value>#{areaCheckerBean}</value>
+        </managed-property>
+        <managed-property>
+            <property-name>valuesList</property-name>
+            <value>#{valuesManagerBean.valuesList}</value>
+        </managed-property>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>dbWorkerBean</managed-bean-name>
+        <managed-bean-class>com.Karina.DBWork.DBWorkerBean</managed-bean-class>
+        <managed-bean-scope>application</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>areaCheckerBean</managed-bean-name>
+        <managed-bean-class>com.Karina.AreaChecker.AreaChecker</managed-bean-class>
+        <managed-bean-scope>application</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>valuesManagerBean</managed-bean-name>
+        <managed-bean-class>com.Karina.Values.ValuesManagerBean</managed-bean-class>
+        <managed-bean-scope>application</managed-bean-scope>
+
+        <managed-property>
+            <property-name>dbWorking</property-name>
+            <property-class>com.Karina.DBWork.DBWorkerBean</property-class>
+            <value>#{dbWorkerBean}</value>
+        </managed-property>
+    </managed-bean>
+    <validator>
+        <validator-id>xValidator</validator-id>
+        <validator-class>com.Karina.Validate.XvalueValidator</validator-class>
+    </validator>
+    <validator>
+        <validator-id>yValidator</validator-id>
+        <validator-class>com.Karina.Validate.YvalueValidator</validator-class>
+    </validator>
+    <validator>
+        <validator-id>rValidator</validator-id>
+        <validator-class>com.Karina.Validate.RvalueValidator</validator-class>
+    </validator>
+  
+</faces-config>
